@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CardView">
+        <activity android:name=".RestaurantActivity"></activity>
+        <activity android:name=".AirportActivity" />
+        <activity android:name=".HospitalActivity" />
+        <activity android:name=".SchoolActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
