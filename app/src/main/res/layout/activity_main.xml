@@ -8,8 +8,9 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="5dp"
-    android:weightSum="2"
+    android:weightSum="3"
     tools:context=".MainActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,6 +27,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:clickable="true"
+            android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground">
 
             <LinearLayout
@@ -39,14 +41,16 @@
                     android:layout_height="65dp"
                     android:background="@drawable/circlebackgroundpurple"
                     android:padding="10dp"
-                    android:src="@drawable/ic_school" />
-
+                    android:src="@drawable/ic_school"
+                    android:contentDescription="TODO" />
+<!--
                 <view
+                    android:id="@+id/viewId"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_margin="10dp"
                     android:background="@color/material_deep_purple" />
-
+-->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -68,6 +72,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:clickable="true"
+            android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground">
 
             <LinearLayout
@@ -81,14 +86,16 @@
                     android:layout_height="65dp"
                     android:background="@drawable/circlebackgroundcolorpink"
                     android:padding="10dp"
-                    android:src="@drawable/ic_hospital" />
-
+                    android:src="@drawable/ic_hospital"
+                    android:contentDescription="TODO" />
+<!--
                 <view
+                    android:id="@+id/view2Id"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_margin="10dp"
                     android:background="@color/material_pink" />
-
+-->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -105,6 +112,7 @@
 
 
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -135,13 +143,13 @@
                     android:background="@drawable/circlebackgroundcolorblue"
                     android:padding="10dp"
                     android:src="@drawable/ic_airport" />
-
+<!--
                 <view
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_margin="10dp"
                     android:background="@color/material_blue" />
-
+-->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -177,13 +185,13 @@
                     android:background="@drawable/circlebackgroundgreen"
                     android:padding="10dp"
                     android:src="@drawable/ic_restaurant" />
-
+<!--
                 <view
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_margin="10dp"
                     android:background="@color/material_green" />
-
+-->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
